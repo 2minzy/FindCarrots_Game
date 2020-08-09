@@ -7,10 +7,11 @@
   <title>Find Carrots!</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/9b342ce525.js" crossorigin="anonymous"></script>
-  <script src="main.js" defer></script>
+  <script type="module" src="src/main.js" defer></script>
 </head>
 
 <body>
+  <!-- Game part -->
   <section class="game">
     <header class="game__header">
       <button class="game__button"><i class="fas fa-play"></i>
@@ -20,11 +21,12 @@
     </header>
     <header class="game__field"></header>
   </section>
+  <!--  Popup message -->
   <section class="pop-up pop-up--hide">
     <button class="pop-up__refresh">
       <i class="fas fa-redo"></i>
     </button>
-    <span class="pop-up__message">Replay?</span>
+    <span class="pop-up__message"></span>
   </section>
 </body>
 
